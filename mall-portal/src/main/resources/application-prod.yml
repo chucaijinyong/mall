@@ -30,11 +30,11 @@ spring:
     timeout: 300ms # 连接超时时间（毫秒）
 
   rabbitmq:
-    host: rabbit
+    host: 192.168.56.10
     port: 5672
-    virtual-host: /mall
-    username: mall
-    password: mall
+    virtual-host: /twomall
+    username: twomall
+    password: twomall
 
 logging:
   file:
